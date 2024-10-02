@@ -4,14 +4,14 @@ import random
 import numpy as np
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
-from model.resnet_cifar10_manual import resnet20
+from model.resnet_cifar10 import resnet20
 from collections import OrderedDict
 import timm
 from model.resnet_imagenet import resnet50
 import sys
 import detectors
 from model.mobilenet import mobilenet
-IHTPATH = './Lagrangian-Heuristic'
+IHTPATH = './Algs'
 sys.path.append(IHTPATH)
 
 
