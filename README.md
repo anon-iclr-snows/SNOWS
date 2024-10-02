@@ -1,3 +1,5 @@
+This repository contains the implementation of the SNOWS. The code implements the layer-wise pruning pipeline and conjugate gradient methods described in our main paper. 
+
 ## Repository Structure
 - `./model/`: Contains the architectures currently supported by SNOWS.
 - `./prune/`: Contains the SNOWS layer-wise pruning pipeline (Algorithms 2 & 3 in the main paper).
